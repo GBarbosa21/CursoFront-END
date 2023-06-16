@@ -1,0 +1,266 @@
+.verde{
+    background-color: #00FF7F;
+}
+.ouro{
+    background-color: #DAA520;
+}
+.roxo{
+    background-color: #9400D3;
+}
+.salmao{
+    background-color: #FA8072;
+}
+.laranja{
+    background-color: #FFA500;
+}
+.peru {
+    background-color: #CD853F;
+}
+.aquamarine {
+    background-color: #7FFFD4;
+}
+.lime {
+    background-color: #00FF00;
+}
+.ciano{
+    background-color: #E0FFFF;
+}
+.silver{
+    background-color: #C0C0C0;
+}
+.dgray{
+    background-color: #A9A9A9;
+}.branca{
+    background-color: white;
+}
+.verde_escuro{
+    background-color: #008000;
+}
+    .botao1{
+    margin-top: 20px;
+    width: 125px;
+    height: 65px;
+    padding: 20px;
+    border-radius: 1px 15px;
+    box-shadow: 3px 3px 3px black;
+}
+.botao1:hover{
+    width: 130px;
+    height: 70px;
+    box-shadow: 6px 6px 6px black;
+}
+.botao2{
+    margin-top: 20px;
+    width: 125px;
+    height: 65px;
+    padding: 20px;
+    border-radius: 15px 1px;
+    box-shadow: 3px 3px 3px black;
+}
+.botao2:hover{
+    width: 130px;
+    height: 70px;
+    box-shadow: 6px 6px 6px black;
+}
+
+.navbar1{
+    width: 100%;
+}
+
+.logoimg{
+    width: 32px;
+    height: 32px;
+}
+
+.links_navega:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.item_navega{
+    font-family: "monaco", monospace;
+    font-size: 17px;
+}
+.cart{
+width: 16em;
+padding: 4px;
+border: 2px solid black;
+}
+
+.popper:hover {
+    width: 20em;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow:  5px 5px 5px black;
+    align-items: center;
+}
+
+.bdrad15{
+    border-radius: 15px;
+}
+.borda2px{
+    border: 2px solid black;
+}
+.txtbranco{
+    color: white;
+}
+.headtab{
+    font-size: 20px;
+}
+
+.hover1:hover{
+    background-color: #A9A9A9;
+}
+
+.verdana {
+    font-family: verdana, sans-serif;
+}
+
+.verdana:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tabhover:hover{
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow:  3px 3px 3px rgb(43, 42, 42);
+}
+
+.thumbimg{
+    border: 2px solid black;
+    border-radius: 4px 2px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+
+.thumbimg:hover{
+    box-shadow: 0 0 15px 13px rgba(0, 140, 186, 0.5);
+    width: 30%;
+    height: auto;
+    padding: 2px;
+}
+
+.polaroid{
+    width: 40%;
+    background-color: white;
+    box-shadow:  3px 3px 3px rgb(43, 42, 42);
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.img_polaroid{
+    width: 100%;
+}
+
+.containpol{
+    padding: 20px 25px;
+}
+
+.lucida{
+    font-family: cursive, Lucida;
+    font-size: 20px;
+}
+
+.embelezador{
+    filter: blur(2px);
+    filter: brightness(40%);
+    filter: contrast(110%);
+    filter: sepia(20%);
+    filter: saturate(2);
+}
+
+.wid80{
+    width: 80%;
+    height: auto;
+}
+
+.wid60{
+    width: 60%;
+    height: auto;
+}
+
+.wid40{
+    width: 40%;
+    height: auto;
+}
+
+.containimg{
+    position: relative;
+    width: 70%;
+}
+
+.img_over{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease-in;
+  background-color: #00008B;
+}
+
+.containimg:hover .overlay{
+    opacity: 1;
+}
+.textover{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.galeria{
+    border: 2px solid #A9A9A9;
+}
+
+.galeria:hover{
+    border: 2px solid black;
+}
+
+.descri{
+    padding: 20px;
+    text-align: left;
+}
+
+.responsivo{
+    padding: 0 8px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 800px) {
+    .responsivo {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+    .responsivo {
+      width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
